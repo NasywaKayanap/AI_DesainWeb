@@ -1,0 +1,214 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garamond', serif; /* Elegan dan klasik */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Abu-abu lembut */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #003366; /* Navy untuk elegan dan klasik */
+    color: #ffd700; /* Emas untuk aksen */
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700; /* Emas untuk aksen */
+    font-size: 1.1em;
+    font-family: 'Comic Sans MS', cursive; /* Lucu dan ceria */
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #003366; /* Navy untuk elegan */
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666; /* Abu-abu klasik */
+}
+
+/* Seasonal Sections with Decorations */
+.seasonal {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+}
+
+.seasonal h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #003366; /* Navy untuk elegan */
+}
+
+.seasonal p {
+    font-size: 1.1em;
+    color: #666; /* Abu-abu klasik */
+}
+
+/* Rainy Season */
+.rainy {
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+}
+
+.rainy h2 {
+    color: #003366; /* Navy untuk elegan */
+}
+
+.rainy p {
+    color: #357abd;
+}
+
+.rainy::after {
+    content: '☔';
+    font-size: 2em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    opacity: 0.8;
+}
+
+/* Dry Season */
+.dry {
+    background: linear-gradient(to bottom, #fdbb2d, #f1c40f);
+}
+
+.dry h2 {
+    color: #d68910;
+}
+
+.dry p {
+    color: #d35400;
+}
+
+.dry::after {
+    content: '🌸';
+    font-size: 2em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    opacity: 0.8;
+}
+
+/* Snowy Season */
+.snowy {
+    background: linear-gradient(to bottom, #e6f7ff, #f0f4f8);
+}
+
+.snowy h2 {
+    color: #3498db;
+}
+
+.snowy p {
+    color: #2980b9;
+}
+
+.snowy::after {
+    content: '❄️';
+    font-size: 2em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    opacity: 0.8;
+}
+
+/* Hot Season */
+.hot {
+    background: linear-gradient(to bottom, #ff6b6b, #f7a1a1);
+}
+
+.hot h2 {
+    color: #c0392b;
+}
+
+.hot p {
+    color: #e74c3c;
+}
+
+.hot::after {
+    content: '🌞';
+    font-size: 2em;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    opacity: 0.8;
+}
+
+aside {
+    background-color: #fff; /* Putih dengan sedikit aksen */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    color: #4f4f4f; /* Abu-abu klasik untuk teks */
+}
+
+footer {
+    background-color: #003366; /* Navy untuk elegan */
+    color: #ffd700; /* Emas untuk aksen */
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
